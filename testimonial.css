@@ -1,0 +1,57 @@
+body {
+	background-color: rgb(153, 37, 54);
+}
+.carousel {
+	background-color: rgb(247, 17, 90);
+	font-family: "Noto Sans", sans-serif;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	border-radius: 20px;
+}
+.carousel h4 {
+	color: white;
+	font-size: 25px;
+	font-weight: 600px;
+	margin-top: 10px;
+}
+.box {
+	background-color: white;
+	border-radius: 20px;
+	margin-top: 80px;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 50px;
+	/* width: 350px; */
+}
+.image {
+	width: 150px !important;
+	height: 150px !important;
+	object-fit: cover;
+	border-radius: 100%;
+	position: relative;
+	margin-top: -90px;
+}
+
+.stars img {
+	width: 25px !important;
+	height: 25px !important;
+	object-fit: cover;
+}
+/* .slides {
+	display: flex;
+	justify-content: space-between;
+} */
+.owl-carousel img {
+	display: inline !important;
+}
+.quote {
+	width: 40px !important;
+	height: 40px !important;
+}
+.owl-dot {
+	width: 20px;
+	height: 20px;
+	background-color: white !important;
+	border-radius: 50%;
+}

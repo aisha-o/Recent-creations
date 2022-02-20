@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;}
+
+.beginner {
+    background-color: rgb(201, 85, 133);
+    height: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.beginner h5 {
+    padding-top: 10px;
+    margin-block: 0;
+    font-weight: 900;}
+
+.nav
+{position: absolute;}
+
+.most{
+    position: fixed;
+    width: 100%;
+}
+
+
+.midi{
+    background:rgb(255, 255, 255);
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0 100px;}
+
+
+.midi ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 30px;}
+
+.midi ul li{
+    padding: 0 20px;
+    padding-top: 10px;
+    color: rgb(32, 28, 28);
+   }
+
+.midi ul li a{
+    text-decoration: none;
+    color: rgb(32, 28, 28);
+    cursor: pointer;}
+
+.midi ul li a:hover {
+    color: rgb(247, 52, 84);}
+
+.icon img{
+    height: 30px;
+    width: 30px;
+    padding-left: 5px;
+    padding-top: 20px;}
+
+.banner{
+    background-color:rgba(245, 21, 113, 0.15);
+    padding-top: 100px;
+}
+    
+
+.banner .heading{
+    padding: 0 100px;}
+
+
+.banner .heading h1{
+    font-size: 35px;
+    width: 80%;
+    padding-top: 100px;
+    font-weight: 900;}
+
+.banner img{
+    width: 300px;}
+
+.banner .heading p{
+    line-height:  25px;
+    color: rgba(88, 86, 86, 0.5);}
+
+.banner .heading button{
+    width: 150px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;}
+
+    .banner .heading button:hover{
+        color: rgb(32, 28, 28);
+        background-color: rgb(247, 52, 84);
+    }
+
+.next_banner{
+    background:rgba(88, 86, 86, 0.1);}
+
+.next_banner ul {
+    margin-block: 0;
+    list-style-type: none ;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    padding-bottom: 10px;}
+
+.next_banner ul li{
+    font-size: 15px;
+    color: rgb(158, 149, 149);
+    font-weight: bolder;}
+
+.next_banner ul .dior{
+    font-family: 'Syne Tactile', cursive;}
+
+.next_banner ul .one{
+    font-family: 'Dancing Script', cursive;}
+
+.next_banner ul .two{
+    font-family: 'Zilla Slab', serif;}
+
+.next_banner ul .three{
+    font-family: 'Big Shoulders Stencil Text', cursive;}
+
+.next_banner ul .four{
+    font-family: 'Mali', cursive;}
+
+    .below{
+        margin-top: 60px;
+        padding: 10px 30px;
+    }
+
+    .below .up{
+        text-align: center;
+    }
+
+    .below .up h5{
+        color: rgb(250, 139, 87, 0.7);
+        margin-bottom: -10px;
+    }
+
+    .below .up h2{
+        font-weight: bolder;
+    }
+
+    .below .down img{
+        width: 200px;
+        padding: 10px 20px;
+        margin: 0 20px;}
+
+   
+
+        
+
+@media (max-width: 1024px) {
+    .midi h2{
+        visibility: hidden;}
+    .midi ul {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 40px;
+        width: 100%;
+        left: 0;
+        padding: 0px 20px 45px 20px;
+        background-color: rgb(255, 255, 255);
+        display: none;
+       }
+    .midi {
+        padding: 0px 15px;
+        height: 80px;}
+    .midi ul li{
+        margin-top: 10px;
+    }
+    /* .beginner{
+        display: none;
+    } */
+    .banner .heading {
+        padding: 0 15px;
+        margin-top: -30px;  }
+    .banner .heading h1{
+        padding-top: 60px;}
+    .next_banner ul{
+        padding: 45px 20px;}
+    .next_banner ul li{
+        font-size: 25px;}
+    .next_banner ul .one {
+        display: none;}
+    .next_banner ul .two{
+        display: none;}
+    .next_banner ul .three{
+        display: none;}
+    .next_banner ul .four{
+        display: none;}
+
+}
+
+
+@media (min-width: 768px) {
+    .banner{
+    display: flex;}
+}

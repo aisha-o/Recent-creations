@@ -1,0 +1,96 @@
+.photo img{
+        width: 130px; 
+        height: 160px;}
+.heading h1 {
+        font-family:'Times New Roman', Times, serif; 
+        font-weight: lighter;
+        margin-bottom: 0.1cm;}
+.secondheading h5{
+        font-family: sans-serif;
+        font-weight: lighter; 
+        margin-top: 0.2cm;}
+.body {font-family: 'Times New Roman', Times, serif;}
+
+a:link {text-decoration:none; 
+        color:royalblue;}
+
+body {background-color: lightgrey;
+        padding-top: -5%;}
+ .first {border-top: 1px solid lightgrey; width: 95%;}
+.form {
+        font-family: sans-serif;
+        border: solid white;
+        border-radius: 10px;
+        margin: 7.5%;
+        background-color: white;
+        width: 20%;
+        padding-top: -10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;}
+
+    .form a {color: royalblue;}
+    .form h3 {font-size: 23px;}
+
+    .form p {margin-bottom: 5px;
+         font-size: 15px;
+         font-weight: bold;}
+
+    .form input[type=name]
+        {width: 95%;
+        height: 0.7cm;
+        border-radius: 5px; 
+        border-width: 1px;
+        border-color: lightgrey;}
+
+        .form input[type=password]
+        {width: 95%;
+        height: 0.7cm;
+        border-radius: 5px; 
+        border-width: 1px;
+        border-color: lightgrey;
+        margin-bottom: 0.15cm;}
+
+        .form input[type=email]
+        {width: 95%;
+        height: 0.7cm;
+        border-radius: 5px; 
+        border-width: 1px;
+        border-color: lightgrey;}
+
+        .signup input{
+        width: 97%;
+        height: 0.8cm;
+        cursor: pointer;
+        background-color: white;
+        border-color: lightgrey;
+        border-width: 1px;
+        border-radius: 5px;
+        font-weight: 800;
+        margin-top: -10px;
+        margin-bottom: 10px;}
+
+        .form button {
+        background-color: deepskyblue;
+        width: 98%;
+        height: 0.7cm;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-top: 0.5cm;}
+        
+        .new1 {text-align: center;}
+        .new2 {text-align: center;
+        margin-top: 1cm;}
+        .new3 {text-align: center;
+        margin-top: 0.2cm;}
+
+
+ .checkbox {margin-top: 0.5cm;
+        font-size: 13px;}
+
+.second {border-top: 2px solid lightgrey;
+        width: 95%;}
+
+

@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	background-color: pink;
+	padding: 25px 0;
+}
+
+.wrapper {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+nav img {
+	width: 20px;
+	color: white;
+}
+
+nav h2 {
+	font-family: "Dancing Script", cursive;
+	font-weight: bolder;
+	margin-top: 5px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	width: 55%;
+	font-size: 17px;
+	color: black;
+	margin-right: 100px;
+	margin-top: 8px;
+	transform: translateX(-768px);
+}
+
+nav button {
+	width: 150px;
+	height: 1cm;
+	color: white;
+	background-color: rgb(255, 87, 147);
+	border-radius: 10px;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+nav button:hover {
+	background-color: rgb(230, 87, 147);
+}
+nav .signup {
+	display: flex;
+	justify-content: space-around;
+	width: 15%;
+	font-size: 18px;
+	color: gray;
+	margin-top: 8px;
+}
+
+nav .signup ul {
+	display: flex;
+	justify-content: space-around;
+	width: 20px;
+}
+
+nav .signup a {
+	font-size: 18px;
+	color: gray;
+}
+
+.close {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	nav {
+		padding: 20px 20px;
+	}
+	nav ul {
+		background-color: rgb(204, 76, 97);
+		flex-direction: column;
+		position: absolute;
+		padding: 20px 25px;
+		top: 70px;
+		margin-left: -30px;
+		line-height: 1cm;
+	}
+
+	nav .signup img {
+		display: none;
+	}
+	nav .signup {
+		display: none;
+	}
+	nav button {
+		display: none;
+	}
+	nav .signup a {
+		width: 15px;
+	}
+	.hamburger div {
+		background-color: black;
+		width: 25px;
+		height: 3px;
+		margin: 5px;
+	}
+}

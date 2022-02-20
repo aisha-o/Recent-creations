@@ -1,0 +1,166 @@
+body {
+	margin: 0;
+}
+.wrapper {
+	font-family: "Zilla Slab", serif;
+	background-color: rgba(58, 168, 241, 0.2);
+	padding: 20px 50px 200px 50px;
+}
+
+.wrapper .midi img {
+	width: 130px;
+	padding-top: 12px;
+}
+.wrapper nav .midi .navside {
+	display: flex;
+	width: 600px;
+}
+
+.wrapper nav .midi {
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper .midi ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	width: 400px;
+}
+
+.wrapper .midi ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+.wrapper .midi button {
+	float: right;
+	width: 120px;
+	height: 50px;
+	font-size: 15px;
+	background-color: rgb(251, 255, 254);
+	border-color: white;
+}
+
+.wrapper .midi button:hover {
+	background-color: black;
+	color: white;
+	transition: 0.5s;
+	/* border-color: white; */
+}
+
+.wrapper .header {
+	padding: 10px 75px;
+	display: flex;
+}
+
+.wrapper .header h1 {
+	font-size: 70px;
+}
+.wrapper .header .together {
+	display: flex;
+	flex-direction: column;
+	max-width: 1200px;
+}
+.wrapper .header .global img {
+	position: absolute;
+	top: 315px;
+	left: 120px;
+}
+
+.wrapper .header .sentence h3::before {
+	content: "\f00c";
+	font-family: Fontawesome;
+	border-radius: 50%;
+	margin-right: 20px;
+	background-color: white;
+	font-size: 30px;
+	font-weight: lighter;
+}
+.wrapper .header .sentence h3 {
+	font-weight: normal;
+}
+
+.wrapper .header p {
+	font-size: 18px;
+}
+
+.wrapper .header .image .one {
+	width: 400px;
+	padding-top: 20px;
+}
+
+.wrapper .header .image .two {
+	position: absolute;
+	top: 450px;
+	right: 200px;
+}
+/* .next .wrap{
+    padding: 0 40px;}     */
+
+.next .wrap .words {
+	padding: 100px 45px;
+	background-color: rgba(240, 67, 139, 0.1);
+	display: flex;
+	justify-content: space-around;
+}
+
+.next .wrap .words .courses {
+	margin-top: 10px;
+}
+
+.next .wrap .words .courses h1 {
+	margin-top: 80px;
+	font-size: 45px;
+}
+
+.next .wrap .words .courses img {
+	position: absolute;
+	top: 1180px;
+	left: 100px;
+}
+.next .wrap .words p {
+	font-size: 20px;
+	line-height: 0.9cm;
+	color: grey;
+}
+.next .wrap button {
+	width: 180px;
+	height: 60px;
+	font-size: 15px;
+	background-color: rgb(0, 0, 0);
+	border-color: black;
+	color: white;
+	margin-top: 100px;
+}
+
+.next .wrap button:hover {
+	background-color: white;
+	color: black;
+	transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+	.wrapper nav .midi .navside ul {
+		display: none;
+	}
+	.wrapper .header .image {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	/* .wrapper{
+        padding: 20px 20px;} */
+
+	.wrapper .header {
+		padding: 10px 20px;
+	}
+	.wrapper .midi button {
+		display: none;
+	}
+	.next .wrap .words {
+		display: flex;
+		flex-direction: column;
+	}
+}

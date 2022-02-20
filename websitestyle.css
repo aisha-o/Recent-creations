@@ -1,0 +1,75 @@
+body {background-image: url(images/website.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+/* color: orange} */
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a {
+    text-decoration: none;
+    color: black;}
+
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 10px;
+    font-weight: 900;
+}
+
+.header ul li {padding-right: 120px;
+margin-top: 10px;}
+
+a:hover{
+    background-color: rgb(27, 27, 209);
+    color: white;
+    transition: 0.5s;}
+
+
+
+.middle {display: flex;
+padding-left: 60px;
+padding-right: 30px;
+padding-top: none;}
+
+.header button {float: right;
+margin-top: -40px;
+margin-right: 60px;
+width: 10%;
+height: 1cm;
+border-radius: 5px;
+cursor: pointer;
+font-weight: 700;
+background-color: rgb(74, 207, 74)
+;
+color: white;
+}
+
+.header button:hover {
+    background-color:rgb(27, 27, 209) ;
+color: rgb(240, 240, 38);
+transition: 0.5s;}
+
+.main
+{font-family: sans-serif;
+margin-top: 80px;
+margin-left: 45px;}
+
+.inside h3
+{font-size: 30px;
+font-weight: normal;}
+
+.inside p{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.main input{
+    border-radius: 5px;
+    border: solid rgb(180, 175, 175);
+    width: 400px;
+    height: 1cm;
+    padding-left: 20px;
+}
+
+.stand {font-size: 15px;
+color: rgb(10, 65, 245);}
